@@ -1,0 +1,32 @@
+{
+  "name": "omaha",
+  "version": "0.0.0",
+  "description": "A streaming interface to omahaproxy (http://omahaproxy.appspot.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/node-omaha.git"
+  },
+  "keywords": [
+    "chromium",
+    "build",
+    "omahaproxy"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/node-omaha/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/node-omaha",
+  "dependencies": {
+    "hyperquest": "^0.2.0",
+    "binary-csv": "^0.1.7"
+  },
+  "devDependencies": {
+    "tape": "^2.7.0",
+    "whisk": "^0.5.0"
+  }
+}
