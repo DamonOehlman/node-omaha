@@ -7,7 +7,7 @@ test('can get a stream of chromium builds from omaha', function(t) {
   var collected = [];
 
   t.plan(1);
-  omaha
+  omaha()
     .on('data', function(config) {
       collected.push(config && config.os);
     })
